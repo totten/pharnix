@@ -15,11 +15,10 @@ let
     owner = "totten";
     repo = "pharnix";
     rev = "v0.2.0";
-    sha256 = "fixme";
+    sha256 = "sha256-JCK4YMgxCxUPn88t164tPnxpDNZxUWPR4W9AExEMzEU=";
   }) {};
 
 in
-
   pkgs.mkShell {
     nativeBuildInputs = pharnix.profiles.full ++ [
       pkgs.bash-completion
@@ -43,7 +42,7 @@ let
     owner = "totten";
     repo = "pharnix";
     rev = "v0.2.0";
-    sha256 = "fixme";
+    sha256 = "sha256-JCK4YMgxCxUPn88t164tPnxpDNZxUWPR4W9AExEMzEU=";
   }) {};
 
 in

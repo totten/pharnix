@@ -24,8 +24,8 @@ rec {
 
     box = fetchPhar {
       name = "box";
-      url = https://github.com/box-project/box/releases/download/4.3.7/box.phar;
-      sha256 = "sCNa7zeyWO9yluzRETsbkFXBaWLnm01xCVDW6kP8KUw=";
+      url = https://github.com/box-project/box/releases/download/4.3.8/box.phar;
+      sha256 = "sha256-4OVJUwLK9ZbEOPeF0IETkA6jQCPHvKpKaYyHghCiduQ=";
     };
 
     pogo = fetchPhar {

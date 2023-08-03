@@ -1,8 +1,10 @@
 # pharnix
 
-Some nix packages that are useful for building PHARs.
+Define a PHP shell for building PHARs. Includes some common tools and `php.ini` options.
 
-## Example: Full profile
+You may use the full environment or pick/choose specific pieces.
+
+## Usage: Full profile
 
 Create a `shell.nix` like this:
 
@@ -29,7 +31,7 @@ in
   }
 ```
 
-## Example: Pick and choose
+## Usage: Pick and choose
 
 Create a `shell.nix` like this:
 

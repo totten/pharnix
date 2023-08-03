@@ -1,5 +1,5 @@
 /**
- * mkPhar - A very small function download a PHAR executable and
+ * fetchPhar - A very small function download a PHAR executable and
  * register in the `bin/` folder.
  *
  * These PHARs are *not* statically linked to PHP. You will have to
@@ -7,8 +7,8 @@
  *
  * Usage:
  *   let
- *     mkPhar = pkgs.callPackage (pkgs.fetchFromGitHub {owner="totten"; repo="phar-nix"; rev="0.1.0";}) {};
- *     box = mkPhar {
+ *     fetchPhar = pkgs.callPackage (import ./fetchPhar.nix) {};
+ *     box = fetchPhar {
  *       name = "box";
  *       url = "https://github.com/box-project/box/releases/download/4.3.7/box.phar";
  *       sha256 = "...";
